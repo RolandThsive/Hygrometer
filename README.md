@@ -17,6 +17,7 @@ For complete printing and assembly instructions, scroll all the way down to the 
 | :---: | :--- |
 | **8x** | M2 x 16 mm Hex Head Allen Type Screws |
 | **8x** | M2 Nut |
+| **4x** | MR74 bearing 4 x 7 x 2 mm |
 | **1x** | AAA 2x Battery holder |
 | **1x** | N20 motor |
 | **1x** | Set of 3D printed parts *(Found in the `/printables` folder)* |
