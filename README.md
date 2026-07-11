@@ -25,7 +25,7 @@ For complete printing and assembly instructions, scroll all the way down to the 
 | **1x** | 1mm Brass rod *(Cut to size)* |
 | **7x** | 15mm x 5mm N52 Neodymium magnets |
 | **1x** | 120mm x 120mm PC fan |
-| **-** | 0.6mm PVC mesh *(Cut to size)* |
+| **1x** | 0.6mm PVC mesh *(Cut to size)* |
 | **1x** | 1 set of 5-pin pogo pin connector |
 | **1x** | Tube of B7000 glue |
 
