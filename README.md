@@ -7,7 +7,7 @@ This repository is a part of the **AQI Board** project by [@RolandThsive](https:
 ## 📖 Instructions
 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
-👉 [Hygrometer AQI Board Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
+👉 [The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
 
 ---
 
