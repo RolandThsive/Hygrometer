@@ -32,13 +32,13 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 
 ## 🔧 Features
 
-- 🐌 **Globoid worm drive** — smooth, self-locking motion for the tick
-- 🎯 **Closed-loop positioning** with an AS5600 magnetic encoder
-- 🔋 **Two power modes:** wall-mounted on magnetic pogo pins, or portable on 2× AAA batteries
-- 🧲 **Magnetic mounting** — sticks to any ferrous surface; the battery cover snaps on with washers
-- 🔗 **USART link** (115200 baud) to a master board when powered from the wall
-- 🧵 **Build-plate texture** transferred onto the battery interface with a print-in-place trick
-- 🔩 Three-part housing (top, bottom, battery cover) held together with M2 bolts and embedded nuts
+- **Globoid worm drive** — smooth, self-locking motion for the tick
+- **Closed-loop positioning** with an AS5600 magnetic encoder
+- **Two power modes:** wall-mounted on magnetic pogo pins, or portable on 2× AAA batteries
+- **Magnetic mounting** — sticks to any ferrous surface; the battery cover snaps on with washers
+- **USART link** (115200 baud) to a master board when powered from the wall
+- **Build-plate texture** transferred onto the battery interface with a print-in-place trick
+- Three-part housing (top, bottom, battery cover) held together with M2 bolts and embedded nuts
 
 ---
 
@@ -61,7 +61,7 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 ## 📖 Instructions
 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
-👉 [The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
+[The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
 
 ### 🖨️ The bottom housing — four pauses
 
@@ -69,7 +69,7 @@ The bottom housing is the tricky print. Each pause has its own Blender file and 
 
 <div align="center">
 
-| ⏸️ 1st Pause | ⏸️ 2nd Pause | ⏸️ 3rd Pause | ⏸️ 4th Pause |
+| 1st Pause | 2nd Pause | 3rd Pause | 4th Pause |
 | :---: | :---: | :---: | :---: |
 | <img src="CAD/GLTF%20Model/1st%20Pause/Model%20Viewer%20-%201st%20Pause/BottomHousing_1stPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/2nd%20Pause/Model%20Viewer%20-%202nd%20Pause/BottomHousing_2ndPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/3rd%20Pause/Model%20Viewer%20-%203rd%20Pause/BottomHousing_3rdPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/4th%20Pause/Model%20Viewer%20-%204th%20Pause/BottomHousing_4thPause_Compressed.png" width="180"/> |
 | Embed the **PVC mesh** (cut with the pre-printed stencil, bonded with B7000) | Drop in the pre-printed part on the model-in-place support for the **build-plate texture** | Insert the **magnets** | Insert the **nuts** and glue the caps over them |
@@ -129,8 +129,8 @@ On boot the firmware checks the mode switch and picks a power mode:
 
 | Mode | When | What it does |
 | :--- | :--- | :--- |
-| 🔋 **Battery** | Running on the AAA pack | Samples humidity (median-filtered) and moves the tick on its own |
-| 🔌 **Power** | Connected through the pogo pins | Opens USART at 115200 baud and answers a master board with a framed (`0xAA` header) 32-bit reading |
+| **Battery** | Running on the AAA pack | Samples humidity (median-filtered) and moves the tick on its own |
+| **Power** | Connected through the pogo pins | Opens USART at 115200 baud and answers a master board with a framed (`0xAA` header) 32-bit reading |
 
 ---
 
@@ -156,9 +156,9 @@ Hygrometer/
 
 | Project | Description |
 | :--- | :--- |
-| 💧 **Hygrometer** *(you are here)* | Analog humidity gauge with a globoid worm drive |
-| 🌡️ [**Thermometer**](https://github.com/RolandThsive/Thermometer) | Temperature & dew point gauge with a planetary gear set |
-| 🌫️ AQI Meter · 🧪 VOC Meter | Coming soon |
+| **Hygrometer** *(you are here)* | Analog humidity gauge with a globoid worm drive |
+| [**Thermometer**](https://github.com/RolandThsive/Thermometer) | Temperature & dew point gauge with a planetary gear set |
+| AQI Meter · VOC Meter | Coming soon |
 
 ---
 
