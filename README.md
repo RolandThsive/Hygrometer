@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💧 The Hygrometer
+# The Hygrometer
 ### *An analog-style humidity gauge — the first instrument of the AQI Board*
 
 <img src="https://RolandThsive.github.io/FeaturedImages/9164757120907738216.jpg" alt="The Hygrometer (AQI Board)" width="720"/>
@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ Overview
+## Overview
 
 This repository is a part of the **AQI Board** project by [@RolandThsive](https://ro-h-bots.blogspot.com/p/about-me.html) — a wall of analog-style instruments (hygrometer, thermometer, AQI meter and VOC meter) that are as much a showpiece as they are useful.
 
@@ -30,7 +30,7 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 
 ---
 
-## 🔧 Features
+## Features
 
 - **Globoid worm drive** — smooth, self-locking motion for the tick
 - **Closed-loop positioning** with an AS5600 magnetic encoder
@@ -42,7 +42,7 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 
 ---
 
-## 📸 Gallery
+## Gallery
 
 <div align="center">
 
@@ -58,12 +58,12 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 
 ---
 
-## 📖 Instructions
+## Instructions
 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
 [The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
 
-### 🖨️ The bottom housing — four pauses
+### The bottom housing — four pauses
 
 The bottom housing is the tricky print. Each pause has its own Blender file and GLTF model so you can see exactly what goes in:
 
@@ -81,7 +81,7 @@ The bottom housing is the tricky print. Each pause has its own Blender file and 
 
 ---
 
-## 🛠️ Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Quantity | Item Description |
 | :---: | :--- |
@@ -102,7 +102,7 @@ The bottom housing is the tricky print. Each pause has its own Blender file and 
 
 ---
 
-## ⚡ Electronics
+## Electronics
 
 | Component | Role |
 | :--- | :--- |
@@ -115,7 +115,7 @@ For now the development boards are wired together directly — a custom PCB is p
 
 ---
 
-## 💻 Firmware
+## Firmware
 
 Built with **PlatformIO** on the Arduino framework for `seeed_xiao_esp32c3`.
 
@@ -134,7 +134,7 @@ On boot the firmware checks the mode switch and picks a power mode:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Hygrometer/
@@ -152,7 +152,7 @@ Hygrometer/
 
 ---
 
-## 🧩 The AQI Board Family
+## The AQI Board Family
 
 | Project | Description |
 | :--- | :--- |
@@ -162,7 +162,7 @@ Hygrometer/
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 * **Blog:** [ro-h-bots.blogspot.com](https://ro-h-bots.blogspot.com/)
 * **Insta:** [@ro_h_bots](https://www.instagram.com/ro_h_bots?igsh=cDNkcnNpYnB5aWR1)
 
