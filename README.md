@@ -1,12 +1,13 @@
 <div align="center">
 
-# 💧 The Hygrometer
+# The Hygrometer
 ### *An analog-style humidity gauge — the first instrument of the AQI Board*
 
 <img src="https://RolandThsive.github.io/FeaturedImages/9164757120907738216.jpg" alt="The Hygrometer (AQI Board)" width="720"/>
 
 [![Blog](https://img.shields.io/badge/Build%20Guide-ro--h--bots-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
 [![YouTube](https://img.shields.io/badge/Watch%20it%20move-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=CXAemQT397Y)
+[![Onshape](https://img.shields.io/badge/Open%20in-Onshape-0A6EB4?style=for-the-badge&logo=onshape&logoColor=white)](https://cad.onshape.com/documents/6ddfd53336dc1c46c65b50b1/w/d053af0db53c4d615bc00639/e/21806321932fd312f15b5a1c?renderMode=0&uiState=6add1867e21be264acb28bf0)
 [![Instagram](https://img.shields.io/badge/@ro__h__bots-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ro_h_bots)
 
 ![ESP32-C3](https://img.shields.io/badge/MCU-ESP32--C3-E7352C?style=flat-square&logo=espressif&logoColor=white)
@@ -19,7 +20,7 @@
 
 ---
 
-## ✨ Overview
+## Overview
 
 This repository is a part of the **AQI Board** project by [@RolandThsive](https://ro-h-bots.blogspot.com/p/about-me.html) — a wall of analog-style instruments (hygrometer, thermometer, AQI meter and VOC meter) that are as much a showpiece as they are useful.
 
@@ -29,19 +30,19 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 
 ---
 
-## 🔧 Features
+## Features
 
-- 🐌 **Globoid worm drive** — smooth, self-locking motion for the tick
-- 🎯 **Closed-loop positioning** with an AS5600 magnetic encoder
-- 🔋 **Two power modes:** wall-mounted on magnetic pogo pins, or portable on 2× AAA batteries
-- 🧲 **Magnetic mounting** — sticks to any ferrous surface; the battery cover snaps on with washers
-- 🔗 **USART link** (115200 baud) to a master board when powered from the wall
-- 🧵 **Build-plate texture** transferred onto the battery interface with a print-in-place trick
-- 🔩 Three-part housing (top, bottom, battery cover) held together with M2 bolts and embedded nuts
+- **Globoid worm drive** — smooth, self-locking motion for the tick
+- **Closed-loop positioning** with an AS5600 magnetic encoder
+- **Two power modes:** wall-mounted on magnetic pogo pins, or portable on 2× AAA batteries
+- **Magnetic mounting** — sticks to any ferrous surface; the battery cover snaps on with washers
+- **USART link** (115200 baud) to a master board when powered from the wall
+- **Build-plate texture** transferred onto the battery interface with a print-in-place trick
+- Three-part housing (top, bottom, battery cover) held together with M2 bolts and embedded nuts
 
 ---
 
-## 📸 Gallery
+## Gallery
 
 <div align="center">
 
@@ -57,18 +58,18 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 
 ---
 
-## 📖 Instructions
+## Instructions
 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
-👉 [The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
+[The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
 
-### 🖨️ The bottom housing — four pauses
+### The bottom housing — four pauses
 
 The bottom housing is the tricky print. Each pause has its own Blender file and GLTF model so you can see exactly what goes in:
 
 <div align="center">
 
-| ⏸️ 1st Pause | ⏸️ 2nd Pause | ⏸️ 3rd Pause | ⏸️ 4th Pause |
+| 1st Pause | 2nd Pause | 3rd Pause | 4th Pause |
 | :---: | :---: | :---: | :---: |
 | <img src="CAD/GLTF%20Model/1st%20Pause/Model%20Viewer%20-%201st%20Pause/BottomHousing_1stPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/2nd%20Pause/Model%20Viewer%20-%202nd%20Pause/BottomHousing_2ndPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/3rd%20Pause/Model%20Viewer%20-%203rd%20Pause/BottomHousing_3rdPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/4th%20Pause/Model%20Viewer%20-%204th%20Pause/BottomHousing_4thPause_Compressed.png" width="180"/> |
 | Embed the **PVC mesh** (cut with the pre-printed stencil, bonded with B7000) | Drop in the pre-printed part on the model-in-place support for the **build-plate texture** | Insert the **magnets** | Insert the **nuts** and glue the caps over them |
@@ -80,7 +81,7 @@ The bottom housing is the tricky print. Each pause has its own Blender file and 
 
 ---
 
-## 🛠️ Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Quantity | Item Description |
 | :---: | :--- |
@@ -101,7 +102,7 @@ The bottom housing is the tricky print. Each pause has its own Blender file and 
 
 ---
 
-## ⚡ Electronics
+## Electronics
 
 | Component | Role |
 | :--- | :--- |
@@ -114,7 +115,7 @@ For now the development boards are wired together directly — a custom PCB is p
 
 ---
 
-## 💻 Firmware
+## Firmware
 
 Built with **PlatformIO** on the Arduino framework for `seeed_xiao_esp32c3`.
 
@@ -128,12 +129,12 @@ On boot the firmware checks the mode switch and picks a power mode:
 
 | Mode | When | What it does |
 | :--- | :--- | :--- |
-| 🔋 **Battery** | Running on the AAA pack | Samples humidity (median-filtered) and moves the tick on its own |
-| 🔌 **Power** | Connected through the pogo pins | Opens USART at 115200 baud and answers a master board with a framed (`0xAA` header) 32-bit reading |
+| **Battery** | Running on the AAA pack | Samples humidity (median-filtered) and moves the tick on its own |
+| **Power** | Connected through the pogo pins | Opens USART at 115200 baud and answers a master board with a framed (`0xAA` header) 32-bit reading |
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Hygrometer/
@@ -151,17 +152,17 @@ Hygrometer/
 
 ---
 
-## 🧩 The AQI Board Family
+## The AQI Board Family
 
 | Project | Description |
 | :--- | :--- |
-| 💧 **Hygrometer** *(you are here)* | Analog humidity gauge with a globoid worm drive |
-| 🌡️ [**Thermometer**](https://github.com/RolandThsive/Thermometer) | Temperature & dew point gauge with a planetary gear set |
-| 🌫️ AQI Meter · 🧪 VOC Meter | Coming soon |
+| **Hygrometer** *(you are here)* | Analog humidity gauge with a globoid worm drive |
+| [**Thermometer**](https://github.com/RolandThsive/Thermometer) | Temperature & dew point gauge with a planetary gear set |
+| AQI Meter · VOC Meter | Coming soon |
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 * **Blog:** [ro-h-bots.blogspot.com](https://ro-h-bots.blogspot.com/)
 * **Insta:** [@ro_h_bots](https://www.instagram.com/ro_h_bots?igsh=cDNkcnNpYnB5aWR1)
 
