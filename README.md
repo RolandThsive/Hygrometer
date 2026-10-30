@@ -63,22 +63,6 @@ The face carries **Hindi numerals**, painted black mid-print with Posca markers 
 For complete printing and assembly instructions, scroll all the way down to the **'Manufacturing'** section on the official blog post:
 [The Hygrometer (AQI Board) Guide](https://ro-h-bots.blogspot.com/2026/06/Hygrometer-AQI-Board.html)
 
-### The bottom housing — four pauses
-
-The bottom housing is the tricky print. Each pause has its own Blender file and GLTF model so you can see exactly what goes in:
-
-<div align="center">
-
-| 1st Pause | 2nd Pause | 3rd Pause | 4th Pause |
-| :---: | :---: | :---: | :---: |
-| <img src="CAD/GLTF%20Model/1st%20Pause/Model%20Viewer%20-%201st%20Pause/BottomHousing_1stPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/2nd%20Pause/Model%20Viewer%20-%202nd%20Pause/BottomHousing_2ndPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/3rd%20Pause/Model%20Viewer%20-%203rd%20Pause/BottomHousing_3rdPause_Compressed.png" width="180"/> | <img src="CAD/GLTF%20Model/4th%20Pause/Model%20Viewer%20-%204th%20Pause/BottomHousing_4thPause_Compressed.png" width="180"/> |
-| Embed the **PVC mesh** (cut with the pre-printed stencil, bonded with B7000) | Drop in the pre-printed part on the model-in-place support for the **build-plate texture** | Insert the **magnets** | Insert the **nuts** and glue the caps over them |
-
-</div>
-
-> [!TIP]
-> The face also needs a pause: stop at the marked layer and paint it black so the Hindi numerals show through. Take care around the edges.
-
 ---
 
 ## Bill of Materials (BOM)
